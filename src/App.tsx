@@ -1,12 +1,13 @@
 import React from 'react'; 
 import { Github, Linkedin, Mail, ExternalLink, ChevronDown } from 'lucide-react'; 
 import profilePic from './assets/profilepic.jpg'; // Adjust the path to your profile picture
+import holosApp from './assets/holos-app.jpg';
  
 const projects = [
   {
       id: 1,
       title: "Project A",
-      description: "A brief description for project A.",
+      description: "My first Todo-App with Local Storage.",
       codeUrl: "https://github.com/stephipie/vite-todo-app",
       demoUrl: "/todo-app/index.html",
       image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&auto=format&fit=crop&q=60"
@@ -14,7 +15,7 @@ const projects = [
   {
     id: 2,
     title: "Project B",
-    description: "A brief description for project B.",
+    description: "My first Game. Let´s play some Memory.",
     codeUrl: "https://github.com/stephipie/memory-game",
     demoUrl: "/Memory-Game/index.html",
     image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&auto=format&fit=crop&q=60"
@@ -22,7 +23,7 @@ const projects = [
 {
     id: 3,
     title: "Project C",
-    description: "A brief description for project C.",
+    description: "My first static Portfolio Website, using only HTML and CSS.",
     codeUrl: "https://github.com/stephipie/stephipie.github.io",
     demoUrl: "https://stephipie.github.io/",
     image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&auto=format&fit=crop&q=60"
@@ -30,9 +31,14 @@ const projects = [
 {
     id: 4,
     title: "Project D",
-    description: "A brief description for project D.",
+    description: "My first Group Project - Holos you´re all-in-one Health-App.",
     codeUrl: "https://github.com/stephipie/holos-app",
-    demoUrl: "/project-d/index.html",
+    demoUrl: holosApp,
+  //   demoUrl: <img 
+  //   src={holosApp} 
+  //   alt="Holos App Preview" 
+  //   className="w-32 h-auto object-cover" // passt die Breite an und erhält das Seitenverhältnis
+  // />,
     image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&auto=format&fit=crop&q=60"
 }
 ];
