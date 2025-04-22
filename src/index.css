@@ -1,0 +1,14 @@
+@import "tailwindcss";
+ 
+@layer base { 
+  html { 
+    scroll-behavior: smooth; 
+  } 
+   
+  body { 
+    /* background-color: #1a202c;  */
+    /* Equivalent to bg-gray-900 */
+    /* background-color:  bg-gray-900;  */
+    background-color: #BAB2B5;
+  } 
+} 
